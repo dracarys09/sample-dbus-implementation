@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<node name="/" xmlns:doc="http://www.freedesktop.org/dbus/1.0/doc.dtd">
+  <interface name="org.openprinting.ADD">
+    <method name="Add">
+      <arg type="i" name="first" direction="in">
+      </arg>
+      <arg type="i" name="second" direction="in">
+      </arg>
+      <arg type="i" name="res" direction="out">
+      </arg>
+    </method>
+  </interface>
+</node>
